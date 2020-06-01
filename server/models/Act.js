@@ -15,5 +15,5 @@ const actSchema = new Schema({
     }
 });
 
-const actmodel = mongoose.model('Act', actSchema);
-module.exports = actmodel;
+ 
+module.exports = mongoose.model('Act', actSchema);
