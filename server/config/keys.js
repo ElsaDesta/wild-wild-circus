@@ -1,5 +1,2 @@
-require("dotenv").config();
-
-module.exports = {
-    MONGO_URI: process.env.MONGO_URI
-}
+require('dotenv').config();
+module.exports =  process.env.mongodb;
