@@ -7,6 +7,11 @@ body,
 #root,
 .App,
 html {
-    
+    font-family: $font-main;
     height: 100vh;
 }
+
+/* colors */
+$black1: #131313;
+$black2: #2D2C2C;
+$gold: #D9A13B;

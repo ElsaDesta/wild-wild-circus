@@ -1,27 +1,27 @@
 @import "./global.scss";
 
 .header--wrapper {
-    height: 80vh;
-    display: flex;
-    background-image: url("../images/ferris-wheel-.jpg") ;
-    background-size: cover;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    //opacity: 1;
-    font-family: 'Playfair Display';
-
+  height: 80vh;
+  display: flex;
+  background-image: url("../images/ferris-wheel-.jpg");
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  animation-name: slow;
+  transition: opacity 3s ease 5s;
+  font-family: $font-header;
 }
 
-.header--container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.header--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header--title {
-    font-family: "Playfair Display";
-    font-size: 10vw;
-    color: white;
-    text-align: center;
+  font-family: $font-header;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
 }
