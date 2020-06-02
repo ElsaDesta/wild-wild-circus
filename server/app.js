@@ -10,11 +10,11 @@ const bodyParser = require('body-parser');
 const mongoose= require("mongoose");
 
 
-
-
+//routes declared
 var indexRouter = require('./routes/index');
 var actsRouter = require('./routes/acts');
 
+//connect to mongodb
 const { mongodb } = process.env;
 const db = mongodb;
 
