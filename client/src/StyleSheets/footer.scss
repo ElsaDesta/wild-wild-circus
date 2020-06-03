@@ -1,0 +1,29 @@
+@import"./global.scss";
+
+.footer--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-main;
+    background-color: $black1;
+  
+    
+    color: $white;
+    width:100%;
+    flex-direction: column;
+    height: 80px;
+    
+    position: fixed;
+    margin-top: -15px;
+    
+    
+    bottom: 0;
+
+}
+.footer--content {
+    display: flex;
+      font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+

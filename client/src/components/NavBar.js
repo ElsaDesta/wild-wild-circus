@@ -7,9 +7,9 @@ export default class NavBar extends Component {
   render() {
     return <div className="navbar">
         <Link className="nav--item" to="/">WC</Link>
-        <Link className="nav--item" to="/acts">Acts</Link>
-        <Link className="nav--item" to="/artists">Artists</Link>
-        <Link className="nav--item" to="/tickets">Tickets</Link>
+        <Link className="nav--item" to="/acts">ACTS</Link>
+        <Link className="nav--item" to="/artists">ARTISTS</Link>
+        <Link className="nav--item" to="/tickets">TICKETS</Link>
     </div>;
   }
 }
