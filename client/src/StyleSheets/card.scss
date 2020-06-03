@@ -1,32 +1,23 @@
-@import"./global.scss";
-.card--wrapper{
-    display: flex;
-    justify-content: center;
-    //width: 80%;
-    flex-direction: column;
-   align-self: center;
-  
-   text-align: center;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   font-family: $font-main;
-   color: $white;
-   width: 250px;
-   
+@import "./global.scss";
+.card--wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: $font-main;
+  color: $white;
+  width: 250px;
 }
 
 .card--image_container {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .costume {
-    width: 250px;
+  width: 100%;
 }
 
 .card--text {
-    background-color: $pink;
+  background-color: $pink;
 }
-
-
