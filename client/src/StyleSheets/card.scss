@@ -7,17 +7,26 @@
   font-family: $font-main;
   color: $white;
   width: 250px;
+  animation: fadeIn ease 5s;
+  animation-iteration-count: 1;
+ 
+  
+   
 }
+@keyframes fadeIn {
+    0% { opacity: 0
+    }
+   
+100% {opacity: 1}
+};
 
 .card--image_container {
   display: flex;
   align-items: center;
 }
-
 .costume {
   width: 100%;
 }
-
 .card--text {
   background-color: $pink;
 }

@@ -12,6 +12,11 @@ const actSchema = new Schema({
     detail: {
         type: String,
         required: true
+    },
+    
+    imagepath: {
+        type: String,
+        required: true
     }
 });
 

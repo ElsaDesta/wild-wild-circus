@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import woman from "../images/woman.jpg";
 import "../StyleSheets/card.scss";
+import redCostume from "../images/redCostume.jpg";
+import glitter from "../images/glitter.jpg";
 
 export default class Card extends Component {
   render() {
@@ -9,7 +11,7 @@ export default class Card extends Component {
         <div className="card--image_container">
           <img
             className="costume"
-            src={woman}
+            src= {this.props.imagepath}
             alt="a person dressed in costume"
           />
         </div>
