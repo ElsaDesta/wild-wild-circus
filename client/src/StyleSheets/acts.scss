@@ -2,8 +2,8 @@
 
 .acts--wrapper {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  //display: flex;
+  //flex-direction: column;
 }
 
 .acts--header {
@@ -20,8 +20,12 @@
 .acts--card_display {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 70px;
-  margin-right: 10px;
-  margin-left: 10px;
+  //margin-right: 10px;
+  //margin-left: 10px;
+ 
+  -moz-display: box;
+  -webkit-display: flex;
+  
 }

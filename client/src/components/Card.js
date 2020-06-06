@@ -8,6 +8,7 @@ export default class Card extends Component {
   render() {
     return (
       <div className="card--wrapper">
+        <div className="card--item"> 
         <div className="card--image_container">
           <img
             className="costume"
@@ -21,6 +22,7 @@ export default class Card extends Component {
           <p>{this.props.detail}</p>
           <p>Get tickets</p>
         </div>
+      </div>
       </div>
     );
   }

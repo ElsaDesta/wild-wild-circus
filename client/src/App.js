@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Acts from "./pages/Acts";
 import Admin from "./pages/Admin";
+import Tickets from "./pages/Tickets";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/admin">
             <Admin />
+          </Route>
+          <Route path="/tickets">
+<Tickets />
           </Route>
           <Route exact path="/">
             <Home />
