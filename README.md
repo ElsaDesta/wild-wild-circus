@@ -3,7 +3,7 @@
 #Fictional website
 -a webstie for an art collective - presenting their work on a virtual platform 
 -users can view the collective's work
-- users can send send suggestions
+- users can send suggestions
 - all acts are stored in the database
 - admin can add new acts
 
