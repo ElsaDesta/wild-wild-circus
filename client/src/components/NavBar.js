@@ -16,8 +16,8 @@ export default class NavBar extends Component {
         <Link className="nav--item" to="/artists">
           ARTISTS
         </Link>
-        <Link className="nav--item" to="/tickets">
-          TICKETS
+        <Link className="nav--item" to="/ideas">
+          IDEAS
         </Link>
       </div>
     );

@@ -6,19 +6,22 @@
     align-items: center;
     font-family: $font-main;
     background-color: $black1;    
-    color: $white;
+   overflow: hidden;
     width:100%;
     flex-direction: column;
     height: 80px;    
     position: fixed;
     margin-top: -15px;     
     bottom: 0;
+    padding-bottom: 5px;
 
 }
 .footer--content {
     display: flex;
-      font-size: 0.8em;
-    letter-spacing: 0.1em;
-    font-weight: 500;
+      font-size: 0.7em;
+    letter-spacing: 0.2em;
+    text-align: center;
+   text-transform: uppercase;
+    color: $gold;
 }
 

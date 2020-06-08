@@ -3,15 +3,20 @@
 .header--wrapper {
   height: 90vh;
   display: flex;
-  background-image: url("../images/magic.jpg") ;  
-  background-repeat: no-repeat;  
+  background-image: url("../images/magic.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  //width: 100%;
   align-items: center;
   justify-content: center;
   animation-name: slow;
   transition: opacity 3s ease 5s;
   font-family: $font-header;
+  z-index: -2;
+}
+
+.home--icon {
+  outline: none;
+  cursor: pointer;
 }
 
 .header--container {
@@ -19,8 +24,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 50%;
-  
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .header--title {
@@ -29,4 +34,14 @@
   color: $white;
   text-align: center;
   text-align: justify;
+}
+
+.header--text {
+  font-family: $font-main;
+  font-size: 1.3rem;
+  color: $white;
+  text-align: left;
+  font-weight: 500;
+  width: 70%;
+  line-height: 1.5em;
 }

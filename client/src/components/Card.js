@@ -8,21 +8,17 @@ export default class Card extends Component {
   render() {
     return (
       <div className="card--wrapper">
-        <div className="card--item"> 
-        <div className="card--image_container">
-          <img
-            className="costume"
-            src= {this.props.imagepath}
-            alt="a person dressed in costume"
-          />
-        </div>
+        <img
+          className="costume"
+          src={this.props.imagepath}
+          alt="a person dressed in costume"
+        />
 
         <div className="card--text">
-          <h3>{this.props.title}</h3>
-          <p>{this.props.detail}</p>
+          <h3 className="card--header">{this.props.title}</h3>
+          <p className="card--detail">{this.props.detail}</p>
           <p>Get tickets</p>
         </div>
-      </div>
       </div>
     );
   }

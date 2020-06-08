@@ -1,68 +1,43 @@
 @import "./global.scss";
 .card--wrapper {
-  //display: flex;
-  //flex-direction: column;
-  
-  //padding: 1rem;
-  //padding-bottom: 1px;
+  overflow: hidden;
   padding-left: 7px;
-  margin-bottom: 2rem;
   margin-bottom: 30px;
-  // width:100%;
-
+  flex-wrap: wrap;
+  display: flex;
   text-align: center;
   font-family: $font-main;
   color: $white;
-  //width: 250px;
   width: 250px;
-  //height: 250px;
-  animation: fadeIn ease 5s;
+  animation: fadeIn ease 3s;
   animation-iteration-count: 1;
- 
-  
-   
 }
 @keyframes fadeIn {
-    0% { opacity: 0
-    }
-   
-100% {opacity: 1}
-};
+  0% {
+    opacity: 0;
+  }
 
- .card--item{
-display:flex;
-flex-direction:column;
-//height: 80vh;
-//   background-color: #fff;
- width: 100%;
-//   border-radius: 6px;
-   overflow: hidden;
-   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
-//   transition: transform 0.5s;
-//   -webkit-transition: transform 0.5s;
-//    &:hover {
-//       cursor: pointer;
-//       transform: scale(1.1);
-//       -webkit-transform: scale(1.1);
-//       .card-image {
-//         opacity: 1;
-//       }
-//     }
- } 
-
-
-.card--image_container {
-  //display: flex;
-  //align-items: center;
-  //height: 60vh;
-  
-  overflow: hidden;
-  
+  100% {
+    opacity: 1;
+  }
 }
- .costume {
-   width: 250px;
-   
- }
+
+.costume {
+  width: 250px;
+  overflow: hidden;
+}
 .card--text {
   background-color: $pink;
+  //display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: $font-main;
+  font-size: 1.3rem;
+  color: $black2;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: start;
+  line-height: 1.3em;
+  justify-items: center;
+  //border-top: 3px solid whitesmoke;
 }

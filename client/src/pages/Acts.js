@@ -13,7 +13,7 @@ export class Acts extends Component {
 
     return (
       <div className="acts--wrapper">
-        <div className="acts--header">ACTS</div>
+        <div className="acts--header">Acts</div>
 
         <div className="acts--card_display">
           {this.props.acts.map((item, id) => (

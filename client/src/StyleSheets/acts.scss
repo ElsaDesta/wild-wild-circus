@@ -1,9 +1,8 @@
 @import "./global.scss";
 
 .acts--wrapper {
-  height: 100vh;
-  //display: flex;
-  //flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .acts--header {
@@ -11,10 +10,11 @@
   justify-content: center;
   text-align: center;
   font-family: $font-header;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: $white;
   padding-top: 60px;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .acts--card_display {
@@ -22,10 +22,6 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 70px;
-  //margin-right: 10px;
-  //margin-left: 10px;
- 
   -moz-display: box;
   -webkit-display: flex;
-  
 }
