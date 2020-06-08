@@ -9,8 +9,9 @@
 - multer - for uploading images
 - mongo db
 
-# to be improved
+# to do
 - responsiveness - wide screens
 - admin dashboard page
 - control for submitting comments
 - control for uploading images
+- unit testing
