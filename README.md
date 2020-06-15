@@ -5,14 +5,14 @@
 -users can view the collective's work
 - users can send suggestions
 - all acts are stored in the database
-- admin can add new acts
+- admin can edit content & upload images
 
 # Technologies used
 - create-react-app
 - redux
-- express generator
+- express and node.js
 - multer - for uploading images
-- mongo db
+- mongoDB - to store data
 
 # to do
 - responsiveness - wide screens
