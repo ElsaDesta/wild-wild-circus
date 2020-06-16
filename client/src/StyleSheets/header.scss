@@ -1,9 +1,9 @@
 @import "./global.scss";
 
 .header--wrapper {
-  height: 90vh;
+  height: 100vh;
   display: flex;
-  background-image: url("../images/magic.jpg");
+  //background-image: url("../images/magic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -21,27 +21,32 @@
 
 .header--container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+ // height: 70%;
+  width: 80%;
+  justify-content: center;
+  background-color: $black1;
 }
 
 .header--title {
+ //padding-top: 60px;
   font-family: $font-header;
-  font-size: 8vw;
+  font-size: 2.8rem;
+  //width: 75%;
   color: $white;
+  justify-content: center;
   text-align: center;
-  text-align: justify;
+  text-shadow: 0 0 4px $black1;
+  
 }
 
 .header--text {
   font-family: $font-main;
   font-size: 1.3rem;
   color: $white;
-  text-align: left;
+  text-align: center;
   font-weight: 500;
-  width: 70%;
-  line-height: 1.5em;
+  //width: 70%;
+  line-height: 1.6em;
 }
