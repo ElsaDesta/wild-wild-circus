@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../StyleSheets/global.scss";
 import axios from "axios";
+import "../StyleSheets/admin.scss";
 
 const mystle = { color: "white" };
 export default class Admin extends Component {
@@ -38,28 +39,28 @@ export default class Admin extends Component {
 
   render() {
     return (
-      <div>
-        <h1 style={mystle}>where is it</h1>
-        <form onSubmit={this.onSubmit}>
-          <div class="form-group">
+      <div className="admin--wrapper">
+        <h1 style={mystle} className="admin--header">Edit acts</h1>
+        <form className="form--group" onSubmit={this.onSubmit}>
+         
             <label style={mystle}>image</label>
-            <input type="file" name="imagepath" onChange={this.onChange} />
+            <input className="admin--form" type="file" name="imagepath" onChange={this.onChange} />
             <label style={mystle}>title</label>
-            <input
+            <input className="admin--form"
               type="text"
               name="title"
               value={this.state.title}
               onChange={this.onChange}
             />
             <label style={mystle}>detail</label>
-            <input
+            <textarea className="admin--detail"
               type="text"
               name="detail"
               value={this.state.detail}
               onChange={this.onChange}
             />
             <input type="submit" value="submit" />
-          </div>
+          
         </form>
       </div>
     );

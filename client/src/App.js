@@ -18,6 +18,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/" component={Home} exact />
         <Route path="/acts" component={Acts} />
         <Route path="/ideas" component={SuggestionBox} />
+        <Route path="/admin" component={Admin} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>
