@@ -1,0 +1,21 @@
+@import"./global.scss";
+
+.navbar {
+    overflow: hidden;
+    background-color: $black1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav--item{
+    float: left;
+    display: block;
+    color: $gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-size: 0.7em;
+
+}

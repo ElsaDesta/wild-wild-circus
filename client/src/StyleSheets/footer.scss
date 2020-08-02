@@ -1,0 +1,27 @@
+@import"./global.scss";
+
+.footer--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-main;
+    background-color: $black1;    
+   overflow: hidden;
+    width:100%;
+    flex-direction: column;
+    height: 60px;    
+    position: fixed;
+    //margin-top: -15px;     
+    bottom: 0;
+    padding-bottom: 5px;
+
+}
+.footer--content {
+    display: flex;
+      font-size: 0.7em;
+    letter-spacing: 0.2em;
+    text-align: center;
+   text-transform: uppercase;
+    color: $gold;
+}
+

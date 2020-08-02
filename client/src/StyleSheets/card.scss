@@ -1,0 +1,46 @@
+@import "./global.scss";
+.card--wrapper {
+  overflow: hidden;
+  padding-left: 7px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  font-family: $font-main;
+  color: $white;
+  width: 250px;
+  animation: fadeIn ease-in 3s;
+  animation-iteration-count: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.costume {
+  width: 250px;
+  overflow: hidden;
+}
+.card--text {
+  background-color: $pink;
+  //display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: $font-main;
+  font-size: 1.3rem;
+  color: $black2;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: start;
+  line-height: 1.3em;
+  justify-items: center;
+  //border-top: 3px solid whitesmoke;
+}

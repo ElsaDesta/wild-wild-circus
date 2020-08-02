@@ -1,0 +1,57 @@
+@import "./global.scss";
+
+.header--wrapper {
+  height: 100vh;
+  display: flex;
+  //background-image: url("../images/magic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  animation-name: slow;
+  transition: opacity 3s ease 5s;
+  font-family: $font-header;
+  z-index: -2;
+}
+
+.home--icon {
+  outline: none;
+  cursor: pointer;
+}
+
+.header--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ // height: 70%;
+//width: 80%;
+  justify-content: center;
+  background-color: $black1;
+  padding-left: 10px;
+  padding-right: 15px;
+  width:90%;
+}
+
+.header--title {
+ //padding-top: 60px;
+  font-family: $font-header;
+  font-size: 2.6rem;
+  //padding-bottom: 30px;
+  //width: 75%;
+  //margin-top: 5px;
+  color: $white;
+  justify-content: center;
+  text-align: left;
+  text-shadow: 0 0 4px $black1;
+  
+}
+
+.header--text {
+  font-family: $font-main;
+  font-size: 1.3rem;
+  color: $white;
+  text-align: center;
+  font-weight: 500;
+  //width: 70%;
+  line-height: 1.6em;
+}

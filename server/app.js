@@ -10,11 +10,11 @@ const bodyParser = require('body-parser');
 const mongoose= require("mongoose");
 
 
-
-
+//routes declared
 var indexRouter = require('./routes/index');
 var actsRouter = require('./routes/acts');
 
+//connect to mongodb
 const { mongodb } = process.env;
 const db = mongodb;
 
@@ -37,7 +37,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 //app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+app.use(express.static(path.join("public")));
 
 mongoose.connect(db, {
   useNewUrlParser: true,
@@ -64,7 +65,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.send('error');
 });
 
 

@@ -1,0 +1,27 @@
+@import "./global.scss";
+
+.acts--wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.acts--header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: $font-header;
+  font-size: 1.8rem;
+  color: $white;
+  padding-top: 60px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.acts--card_display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+  -moz-display: box;
+  -webkit-display: flex;
+}

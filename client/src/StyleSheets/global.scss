@@ -1,0 +1,48 @@
+/* fonts */
+
+$font-header: "Playfair Display";
+$font-main: "Roboto";
+
+/* colors */
+$black1: #131313;
+$black2: #2d2c2c;
+$gold: #d9a13b;
+$white: #fffefe;
+$pink: #d9b5a0;
+$blue: #530de8;
+
+body,
+#root,
+.App {
+  font-family: $font-main;
+  height: 100%;
+  background-color: $black1;
+  scroll-behavior: smooth;
+  //scroll-padding-right: 10px;
+  //scrollbar-width: 50px;
+  width: 100%;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

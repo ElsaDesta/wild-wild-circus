@@ -12,8 +12,13 @@ const actSchema = new Schema({
     detail: {
         type: String,
         required: true
+    },
+    
+    imagepath: {
+        type: String,
+        required: true
     }
 });
 
-const actmodel = mongoose.model('Act', actSchema);
-module.exports = actmodel;
+ 
+module.exports = mongoose.model('Act', actSchema);
