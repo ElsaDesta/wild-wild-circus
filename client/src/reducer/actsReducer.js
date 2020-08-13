@@ -1,12 +1,12 @@
 import {FETCH_ACTS} from "../action/types";
 
-
-export default function actsReducer (state= [], action) {
+const initState = [];
+export default function actsReducer (state= initState, action) {
  switch (action.type) {
      case FETCH_ACTS:
-        
-        return[...state, ...action.data];
- 
+
+        return[...initState, ...action.data];
+
      default:
          return state ;
  }

@@ -11,9 +11,8 @@ $white: #fffefe;
 $pink: #d9b5a0;
 $blue: #530de8;
 
-body,
-#root,
-.App {
+
+body{
   font-family: $font-main;
   height: 100%;
   background-color: $black1;
@@ -24,25 +23,20 @@ body,
 }
 
 html {
+  height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+#root {
+  height: 100%;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+
+

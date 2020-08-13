@@ -7,18 +7,21 @@ import { connect } from "react-redux";
 
 export class Acts extends Component {
   render() {
-    
+
     return (
+
       <div className="acts--wrapper">
         <div className="acts--header">Acts</div>
 
-        <div className="acts--card_display">
+       <div className="acts--card_display">
           {this.props.acts.map((item, id) => (
             <Card key={id} {...item} />
           ))}
-        </div>
+         </div>
       </div>
-    );
+
+    )
+
   }
 }
 

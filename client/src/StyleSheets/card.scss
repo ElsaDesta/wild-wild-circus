@@ -26,8 +26,10 @@
 }
 
 .costume {
-  width: 250px;
+  width: 300px;
   overflow: hidden;
+  //height: 3;
+  display: flex;
 }
 .card--text {
   background-color: $pink;
