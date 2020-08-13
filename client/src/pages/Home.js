@@ -5,8 +5,8 @@ import "../StyleSheets/header.scss";
 
 export default function Home() {
     return (
-        <div className="home">
-           <Header /> 
-        </div>
+        <>
+           <Header />
+        </>
     )
 }

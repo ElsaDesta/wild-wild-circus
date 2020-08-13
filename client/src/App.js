@@ -7,8 +7,9 @@ import Footer from "./components/Footer";
 import Acts from "./pages/Acts";
 import Admin from "./pages/Admin";
 import Tickets from "./pages/Tickets";
+import Artists from "./pages/Artists";
 import SuggestionBox from "./pages/SuggestionBox";
-import { BrowserRouter as Router, Route, Switch, Link, NavLink, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
 const AnimatedSwitch = withRouter(({ location }) => (
@@ -19,6 +20,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/acts" component={Acts} />
         <Route path="/ideas" component={SuggestionBox} />
         <Route path="/admin" component={Admin} />
+        <Route path="/artists" component={Artists} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>
@@ -32,9 +34,9 @@ const AnimatedSwitch = withRouter(({ location }) => (
       <div className="App">
         <Router>
         <NavBar />
-        
+
         <AnimatedSwitch />
-        
+
         <Footer />
         </Router>
       </div>
